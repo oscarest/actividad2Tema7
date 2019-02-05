@@ -132,6 +132,7 @@ public class MainActivity extends Activity {
 
     public void listarProductos(View view) {
         TextView txtResultados = findViewById(R.id.txtResultados);
+        //Esto sirve para hacer scroll de un TextView y tal. Recordar añadir "android:scrollbars="vertical" al layout.
         txtResultados.setMovementMethod(new ScrollingMovementMethod());
         txtResultados.setText("");
 
